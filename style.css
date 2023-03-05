@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&family=Ubuntu:wght@300&family=Xanh+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    height: 80px;
+    background: #7395D3;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.logotipo {
+    width: 250px;
+    height: 90px;
+}
+
+#subtitulo {
+    display: inline-block;
+    width: 200px;
+    height: px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 11px;
+    color: hwb(0 0% 100%);
+    margin: 13px 503px 14px 0px
+}
+
+.sobre {
+    font-family: 'Ubuntu';
+    width: 50px;
+    height: 30px;
+}
+
+#divBusca {
+    background-color: #7395D3;
+    border: solid 1px white;
+    border-radius: 10px;
+    width: 300px;
+}
+
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 260px;
+}
+
+#menu {
+    list-style: none;
+    border: 1px solid #c0c0c0;
+    float: left;
+}
+
+#menu li {
+    position: relative;
+    float: left;
+    border-right: 1px solid #c0c0c0;
+}
+
+#menu li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+
+#menu li ul {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: #fff;
+    display: none;
+}
+
+#menu li:hover ul,
+#menu li.over ul {
+    display: block;
+}
+
+#menu li ul li {
+    border: 1px solid #c0c0c0;
+    display: block;
+    width: 150px;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+}
